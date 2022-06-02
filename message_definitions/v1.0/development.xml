@@ -291,6 +291,9 @@
       <entry value="131072" name="MAV_BATTERY_STATUS_FLAGS_FAULT_INCOMPATIBLE_CELLS_CONFIGURATION">
         <description>Battery is not compatible due to cell configuration (e.g. 5s1p when vehicle requires 6s).</description>
       </entry>
+      <entry value="4294967295" name="MAV_BATTERY_STATUS_FLAGS_EXTENDED">
+        <description>Reserved for future use. If set, this will indicate that an additional status field exists for higher status values.</description>
+      </entry>      
     </enum>
     <enum name="MAV_CMD">
       <entry value="247" name="MAV_CMD_DO_UPGRADE" hasLocation="false" isDestination="false">
