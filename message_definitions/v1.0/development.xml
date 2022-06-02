@@ -206,9 +206,7 @@
         </description>
       </entry>
       <entry value="2" name="MAV_BATTERY_STATUS_FLAGS_CHARGING">
-        <description>
-          Battery is charging.
-        </description>
+        <description>Battery is charging.</description>
       </entry>
       <entry value="4" name="MAV_BATTERY_STATUS_FLAGS_CELL_BALANCING">
         <description>
