@@ -13,3 +13,17 @@ Key Links:
 * [Discussion/Support](https://mavlink.io/en/#support) (Slack)
 * [Contributing](https://mavlink.io/en/contributing/contributing.html)
 * [License](https://mavlink.io/en/#license)
+
+## Usage
+
+1. Modify custom dialect in `message_definitions/v1` folder.
+2. Run following command:
+    ```bash
+    python3 -m mavgenerate
+    ```
+
+    On `Out`, define output dialect file path.For example, to output the new dialect file `sense` to
+    folder `custom_dialects`:
+    Out == custom_dialects/sense
+
+
